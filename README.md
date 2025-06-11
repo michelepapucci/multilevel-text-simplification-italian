@@ -2,7 +2,7 @@
 
 The repository contains the dataset created for an in-depth linguistic analysis of automatically generated text simplification for Italian using Llama-2. 
 
-The dataset has been created in the context of a research paper, that is currently under review, by [Michele Papucci](michelepapucci.github.io), [Giulia Venturi](http://www.italianlp.it/people/giulia-venturi/) and [Felice dell'Orletta](http://www.italianlp.it/people/felice-dellorletta/). 
+The dataset has been created in the context of a research paper, that is currently under review, by [Michele Papucci](https://michelepapucci.github.io), [Giulia Venturi](http://www.italianlp.it/people/giulia-venturi/) and [Felice dell'Orletta](http://www.italianlp.it/people/felice-dellorletta/). 
 
 ## Dataset Format
 
