@@ -2,7 +2,7 @@
 
 The repository contains the dataset created for an in-depth linguistic analysis of automatically generated text simplification for Italian using Llama-2. 
 
-The dataset has been created in the context of a research paper, that is currently under review, by [Michele Papucci](https://michelepapucci.github.io), [Giulia Venturi](http://www.italianlp.it/people/giulia-venturi/) and [Felice dell'Orletta](http://www.italianlp.it/people/felice-dellorletta/). 
+The dataset has been created in the context of a research paper, accepted at [CLiC-it 2025](https://clic2025.unica.it/), by [Michele Papucci](https://michelepapucci.github.io), [Giulia Venturi](http://www.italianlp.it/people/giulia-venturi/) and [Felice dell'Orletta](http://www.italianlp.it/people/felice-dellorletta/). 
 
 ## Dataset Format
 
@@ -12,3 +12,16 @@ Each row represents a tuple `(original, simplification)`. Relevant fields are:
 - `original_text` and `simplification` which contains the texts of the original sentence, and the generated simplification; 
 - `readit_og` and `readit_simp` which represent the Read-IT Global Score (paper [here](https://aclanthology.org/W11-2308.pdf), demo [here](http://www.italianlp.it/demo/read-it/)) of the original sentence and the generated simplification; 
 - The remainder of the `*_og` and `*_simp` columns represent a linguistic feature obtained trough the use of ProfilingUD (paper [here](http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.883.pdf), web-based tool [here](http://www.italianlp.it/demo/profiling-UD/)) of the original sentence and of the simplification (e.g. `char_per_tok_og` and `char_per_tok_simp` represent respectively the average number of characters per token for the original sentence and for the generated simplification).
+
+<!--
+## Citing
+
+If you find this data useful, or you use it one of your own project, please cite us as:
+```bibtex
+@inproceedings{papucci2025generating, 
+    title={Generating and Evaluating Multi-Level Text Simplification: A Case Study on Italian},  
+    author={Papucci, Michele and Venturi, Giulia and Dell’Orletta, Felice}, 
+    booktitle={Proceedings of the 11th Italian Conference on Computational Linguistics CLiC-it 2025: Cagliari, Italy, 2025}, 
+    year={2025}}
+```
+--> 
